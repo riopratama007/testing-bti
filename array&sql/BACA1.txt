@@ -1,0 +1,12 @@
+
+f. 
+kubernetes : platform open source untuk mengelola kumpulan kontainer dalam suatu cluster server.
+orm : (Object Relation Mapping) merupakan teknik yang merubah suatu table menjadi sebuah object yang nantinya mudah untuk digunakan.
+class : gabungan data dalam satu kesatuan untuk suatu tujuan yang ditentukan.
+function : sub modul atau sub program yang dibuat untuk menyelesaikan hal tertentu.
+devops :  DevOps adalah gabungan dari dua kata, di mana kepanjangan DevOps adalah development (Dev) dan operations (Ops).
+docker : platform atau aplikasi yang bersifat open source untuk memasukkan dan menyatukan beberapa file.
+
+
+g. Menurut saya membuat aplikasi saat ini yg terpenting adalah membuat aplikasi mobile android atau mobile ios karna aplikasi ini dapat diinstall di gadget 
+atau handphone anda , untuk technic pembuatan bisa menggunakan android native , ios native , atau pun react native , flutter dart.

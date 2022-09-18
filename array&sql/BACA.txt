@@ -1,0 +1,51 @@
+membuat database testing
+============================
+CREATE DATABASE testing;
+
+membuat table user
+====================================
+CREATE TABLE user (
+    user_id VARCHAR(25) NOT NULL,
+    age VARCHAR(25) NOT NULL,
+    PRIMARY KEY (user_id)
+);
+
+membuat table asset
+=======================================
+CREATE TABLE asset (
+    item VARCHAR(25) NOT NULL,
+    user_id VARCHAR(25) NOT NULL,
+    PRIMARY KEY (user_id)
+);
+
+membuat data baru di table user
+========================================
+INSERT INTO user
+VALUES('wildan','27')
+
+INSERT INTO user
+VALUES('zaki','25')
+
+
+membuat data baru di table asset
+========================================
+INSERT INTO asset
+VALUES('notebook','wildan')
+INSERT INTO asset
+VALUES('bag','wildan')
+INSERT INTO asset
+VALUES('notebook','zaki')
+INSERT INTO asset
+VALUES('bag','zaki')
+INSERT INTO asset
+VALUES('mobile phone','zaki')
+
+menampilkan table assets di item 
+===========================================
+SELECT item FROM asset;
+
+menampilkan table assets di item dan user_id
+==============================================
+SELECT user_id , item FROM asset;
+
+

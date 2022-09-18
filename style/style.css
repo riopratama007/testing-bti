@@ -1,0 +1,1223 @@
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container-fluid {
+    --bs-gutter-x: 0rem;
+}
+
+body {
+    font-family: sans-serif;
+    --bs-gutter-x: 0rem;
+}
+
+.select-language img {
+    width: 16px;
+    height: 14px;
+}
+
+.select-language {
+    width: 100px;
+    margin-right: 50px;
+}
+
+.goog-te-combo {
+    background-color: red;
+    color: #fff;
+    font-size: 15px;
+}
+
+.icon-search {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(230, 226, 226);
+    margin-right: 130px;
+    cursor: pointer;
+}
+
+.icon-search i {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+.navbar {
+    height: 90px;
+    border-bottom: 2px solid red;
+    box-shadow: 0px 0px 10px 0px gray;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    width: 1190px;
+    height: 700px;
+    padding: 15px 15px 15px 15px;
+    margin-left: -130px;
+}
+
+.dropdown-menu-left {
+    text-align: left;
+}
+
+.dropdown-menu-left .dropdown-item {
+    width: 340px;
+    height: 50px;
+    background-color: rgb(241, 96, 96);
+    margin-top: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+}
+
+.dropdown-menu-left .dropdown-item:hover {
+    background-color: #961B1E;
+}
+
+.dropdown-menu-right .dropdown-item:hover {
+    background-color: transparent;
+}
+
+.dropdown-menu-right {
+    float: left;
+    transform: translate(180%, -110%);
+}
+
+.dropdown-menu-right .dropdown-item {
+    height: 200px;
+}
+
+.dropdown-menu-right img {
+    width: 140px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.dropdown-item span i {
+    bottom: 0;
+    margin-left: 10px;
+}
+
+.dropdown-item span p {
+    font-size: 13px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.carousel-inner {
+    height: 700px;
+    /* backface-visibility: hidden; */
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.deret-gambar img {
+    width: 1100px;
+    margin-top: 30px;
+}
+
+.solution {
+    width: 700px;
+    height: 400px;
+    background-image: url(../img/engineer-checking-industrial-fire-control-system1.jpeg);
+    filter: hue-rotate(20%);
+}
+
+.our-value {
+    width: 670px;
+    height: 400px;
+    background-image: url(../img/Sprinkler.png);
+}
+
+.caption1 {
+    width: 400px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 40px;
+    transform: translateX(70%);
+}
+
+.caption2 {
+    width: 400px;
+    color: #fff;
+    line-height: 30px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.fire-maintenance {
+    width: 520px;
+    height: 400px;
+    background-image: url('/img/Frame-10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fire-maintenance h4,
+.fire-suppression h4,
+.fire-alarm h4,
+.refilling h4,
+.integrity-test h4,
+.fire-fighting h4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 290px;
+    font-weight: 550;
+    display: none;
+}
+
+.fire-maintenance:hover h4,
+.fire-suppression:hover h4,
+.fire-alarm:hover h4,
+.refilling:hover h4,
+.integrity-test:hover h4,
+.fire-fighting:hover h4 {
+    display: block;
+    transition: 0.31s;
+}
+
+.fire-maintenance:hover,
+.fire-suppression:hover,
+.fire-alarm:hover,
+.refilling:hover,
+.integrity-test:hover,
+.fire-fighting:hover {
+    filter: contrast(55%);
+}
+
+.home-hover a {
+    text-decoration: none;
+}
+
+.fire-suppression {
+    width: 460px;
+    height: 400px;
+    background-image: url('/img/WhatsApp-Image-2022-08-16-at-17.07.17.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fire-alarm {
+    width: 470px;
+    height: 400px;
+    background-image: url('/img/WhatsApp-Image-2022-08-16-at-15.56.58-1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.refilling {
+    width: 570px;
+    height: 400px;
+    background-image: url('/img/engineer-checking-industrial-fire-control-system1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.integrity-test {
+    width: 350px;
+    height: 400px;
+    background-image: url('/img/WhatsApp-Image-2022-08-16-at-18.06.27.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fire-fighting {
+    width: 530px;
+    height: 400px;
+    background-image: url('/img/WhatsApp-Image-2022-08-16-at-17.26.51.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-image img {
+    width: 80%;
+    margin-top: 190px;
+    margin-left: 30px;
+}
+
+.our-image h2 {
+    margin-top: 50px;
+    font-weight: 700;
+}
+
+.consistency,
+.commitment {
+    width: 380px;
+    height: 170px;
+    background: linear-gradient(90deg, #961B1E 0%, #cf2e2e 100%);
+    margin-top: 30px;
+    border-radius: 20px;
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.our-client img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+/* carousel client */
+
+/* carousel client */
+
+.our-client {
+    margin-top: 90px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding-top: 40px;
+    margin-top: 80px;
+}
+
+.image-footer {
+    width: 70%;
+    margin-left: 170px;
+}
+
+.follow-us {
+    display: inline-flexbox;
+}
+
+.follow-us img {
+    width: 50px;
+}
+
+.solutions-product li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.solutions-product h6 {
+    margin-left: 30px;
+}
+
+.about-orient h6,
+.about-orient p {
+    margin-left: 70px;
+    width: 260px;
+}
+
+.footer-second {
+    background-color: #cf2e2e;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.footer-third {
+    height: 40px;
+    background-color: #fff;
+}
+
+.floatwa {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    float: right;
+}
+
+.floatwa img {
+    margin-top: -6px;
+    margin-right: -6px;
+}
+
+.tombolwa {
+    width: 200px;
+    height: 45px;
+    background-color: rgb(105, 241, 105);
+    text-align: right;
+    border-radius: 20px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.mendukung {
+    width: 170px;
+    height: 45px;
+    background-color: red;
+    margin-bottom: -30px;
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+}
+
+.mendukung i {
+    font-size: 20px;
+    margin-left: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mendukung a {
+    text-decoration: none;
+}
+
+.mendukung h6 {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.tombolwa h6 {
+    color: #fff;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.formulir {
+    width: 500px;
+    border: 1px solid #000;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    position: fixed;
+    bottom: -580px;
+    right: 30px;
+    float: right;
+}
+
+.formulir .close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sidebar-close {
+    bottom: -580px;
+    transition: 0.8s;
+}
+
+.sidebar-open {
+    bottom: 70px;
+    transition: 0.8s;
+}
+
+
+.formulir input,
+.formulir select {
+    width: 470px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 10px;
+    font-size: 14px;
+
+}
+
+label {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    width: 470px;
+    height: 70px;
+    margin-top: 10px;
+}
+
+.unggah-berkas button {
+    color: #fff;
+    background-color: grey;
+    border: none;
+    margin-top: 15px;
+}
+
+.btn-form {
+    background-color: deepskyblue;
+    border: none;
+    height: 40px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.image-head-about {
+    width: 99%;
+    height: 500px;
+    background-image: url('../img/banner_home.jpeg');
+    background-size: cover;
+}
+
+.navbar-second {
+    width: auto;
+    height: 50px;
+    background-color: #cf2e2e;
+    text-align: center;
+    margin-top: 20px;
+    /* position: fixed; */
+}
+
+.navbar-second ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.navbar-second ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigasi-item {
+    height: 50px;
+    padding-top: 10px;
+    padding-left: 7px;
+    padding-right: 10px;
+}
+
+.navbar-second .navigasi-item:hover {
+    background-color: #4f5050;
+}
+
+.navbar-second .active {
+    background-color: #4f5050;
+}
+
+.profil-oriental {
+    width: 1100px;
+    height: auto;
+    box-shadow: 0px 3px 3px 3px rgb(190, 190, 190);
+    padding-bottom: 120px;
+}
+
+.profil-perusahaan {
+    margin-top: 100px;
+}
+
+.lingkup-pekerjaan img {
+    width: 100%;
+}
+
+.lingkup-pekerjaan h3 {
+    margin-top: 40px;
+}
+
+.tonggak-perusahaan {
+    margin-top: 40px;
+}
+
+.left-tonggak img {
+    width: 470px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.right-tonggak img {
+    width: 470px;
+    margin-top: 40px;
+    margin-left: -205px;
+}
+
+.center-tonggak img {
+    width: 10%;
+    margin-top: 150px;
+}
+
+.tonggak2 p {
+    margin-top: 110px;
+    margin-left: 480px;
+}
+
+.tonggak3 {
+    margin-top: 60px;
+}
+
+.tonggak4 p {
+    margin-top: 60px;
+    margin-left: 400px;
+    height: 20px;
+}
+
+.tonggak5 p {
+    margin-top: 160px;
+    margin-left: -650px;
+}
+
+.tonggak6 {
+    margin-top: 50px;
+}
+
+.tonggak7 p {
+    margin-top: 100px;
+    margin-left: -650px;
+}
+
+.tonggak8 {
+    margin-top: 60px;
+}
+
+.visi-misi h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.legalitas h3 {
+    text-align: center;
+}
+
+.kekuatan {
+    margin-top: 50px;
+}
+
+.kekuatan img {
+    width: 100%;
+}
+
+.kekuatan h3 {
+    margin-top: 170px;
+}
+
+.legalitas h3,
+.legalitas h4 {
+    margin-top: 40px;
+}
+
+.legalitas img {
+    width: 70%;
+    margin-left: 130px;
+}
+
+.mitra1 {
+    margin-left: -35px;
+}
+
+.mitra1 img {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.mitra {
+    margin-left: -70px;
+}
+
+.klien h4 {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.klien-kami h4 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.klien-image img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.galery-foto {
+    /* width: auto; */
+    padding-bottom: 120px;
+    /* margin-left: 60px; */
+}
+
+.galery-foto h3 {
+    margin-top: 170px;
+    text-align: center;
+}
+
+.daftar-foto {
+    margin-top: 80px;
+}
+
+.daftar-foto img {
+    width: 700px;
+    height: 280px;
+    margin-top: 30px;
+}
+
+/* kontak */
+
+.image-head-kontak {
+    background-image: url('../img/about-img.png');
+    width: 100%;
+    height: 450px;
+    background-size: cover;
+}
+
+.form-kontak {
+    width: 700px;
+}
+
+.form-kontak .firstname input,
+.form-kontak .lastname input {
+    width: 330px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.form-kontak .lastname {
+    margin-left: 37px;
+}
+
+.form-kontak .email input,
+.form-kontak .subject input {
+    width: 700px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.kontak-form {
+    width: 1200px;
+    padding-bottom: 120px;
+    margin-left: 60px;
+}
+
+.form-kontak .your-message textarea {
+    width: 700px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+.form-kontak button {
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+/* akhir kontak */
+
+/* head-clean */
+
+.title-head-clean h3 {
+    margin-top: 180px;
+    text-align: center;
+    background-color: #cf2e2e;
+    color: #fff;
+    font-weight: 560;
+    width: 500px;
+    height: 60px;
+    padding-top: 13px;
+    margin-left: 300px;
+}
+
+.title-head-clean .agent {
+    color: yellow;
+}
+
+.head-clean p {
+    margin-top: 50px;
+}
+
+.title-head-clean1 h3 {
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+.title-head-clean1 img {
+    width: 100%;
+}
+
+.head-clean,
+.shift {
+    width: 1100px;
+}
+
+.shift h3 {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.caption-shift {
+    width: 490px;
+    background-color: #961B1E;
+    color: #fff;
+    padding: 20px 20px 20px 20px;
+    margin-left: 280px;
+}
+
+.shift img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.shift p {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.orientasi h3 {
+    text-align: left;
+}
+
+.orientasi img {
+    width: 70%;
+}
+
+/* akhir head clean */
+
+/* inert gas */
+.inert {
+    width: 1100px;
+}
+
+.inert h3 {
+    margin-top: 160px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.inert p,
+.inert img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.jumlah-zat {
+    margin-top: 50px;
+}
+
+.jumlah-zat h6 {
+    background-color: #961B1E;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.jumlah-zat p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+/* akhir inert gas */
+
+/* system alarm */
+.system-alarm h3 {
+    margin-top: 180px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.system-alarm p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.seri-onix {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.seri-onix h4 {
+    text-align: left;
+    font-weight: 550;
+
+}
+
+.seri-onix span {
+    height: 30px;
+}
+
+.seri-onix i {
+    margin-top: 23px;
+    margin-right: 10px;
+}
+
+.spek-fire {
+    margin-left: 40px;
+}
+
+.spek-fire img {
+    width: 50%;
+    margin-left: 20px;
+}
+
+.spek-fire p {
+    text-align: left;
+    font-size: 13px;
+}
+
+.spek-fire h5 {
+    text-align: left;
+    font-weight: 550;
+}
+
+.spek-fire1 {
+    margin-left: -40px;
+}
+
+/* akhir system alarm */
+
+/* centrifugal */
+.pompa {
+    width: 1100px;
+}
+
+.pompa .title-pompa h3 {
+    font-weight: 550;
+    text-align: center;
+    background-color: #425b6d;
+    margin-top: 180px;
+    color: #fff;
+    padding: 10px 0px 10px 0px;
+}
+
+.pompa img {
+    width: 90%;
+}
+
+.pompa h5 {
+    font-weight: 550;
+    text-align: center;
+}
+
+.pompa span h6 {
+    font-weight: 400;
+    text-align: left;
+    background-color: #425b6d;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+}
+
+.skids img {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.skids h3 {
+    font-weight: 550;
+    text-align: center;
+    background-color: #961B1E;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.skids ul {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: -25px;
+}
+
+.sfeco img {
+    width: 50%;
+    margin-left: 300px;
+}
+
+.rentang-kerja p {
+    margin-top: 30px;
+}
+
+.rentang-kerja h5 {
+    font-weight: 550;
+    text-align: left;
+}
+
+.rentang-kerja h6 {
+    margin-top: 30px;
+    background-color: #425b6d;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+}
+
+.rentang-kerja ul {
+    margin-top: 30px;
+}
+
+.rentang-kerja img {
+    margin-top: 70px;
+}
+
+/* akhir centrifugal */
+
+/* general pump */
+.general-pump h2 {
+    font-weight: 550;
+    margin-top: 90px;
+    text-align: center;
+    background-color: #961B1E;
+    padding: 45px 0px 45px 0px;
+    color: #fff;
+}
+
+.list-general-pump {
+    width: 1100px;
+}
+
+.list-general-pump h5 {
+    font-weight: 400;
+    background-color: #425b6d;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.list-general-pump img {
+    width: 100%;
+}
+
+.list-general-pump .pump-right img {
+    height: 250px;
+}
+
+.listed img {
+    width: 70%;
+}
+
+.listed p {
+    margin-top: 40px;
+}
+
+/* akhir general pump */
+
+/* foam */
+.foam {
+    width: 1100px;
+}
+
+.title-foam h3 {
+    margin-top: 190px;
+    background-color: #961B1E;
+    font-weight: 500;
+    color: #fff;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    width: 400px;
+}
+
+.foam h5 {
+    background-color: #1a202c;
+    color: #fff;
+    padding: 10px 0px 10px 20px;
+    font-weight: 550;
+    margin-top: 40px;
+}
+
+.foam img {
+    width: 80%;
+}
+
+.foam-house img {
+    width: 50%;
+}
+
+/* akhir foam */
+
+/* dry hydrant */
+.dry-hydrant h3 {
+    background-color: #961B1E;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.dry-hydrant {
+    width: 1100px;
+}
+
+.dry-hydrant h5 {
+    margin-top: 50px;
+    font-weight: 550;
+    width: 500px;
+}
+
+.dry-barrel img {
+    width: 150%;
+}
+
+.barrel,
+.barrel2 {
+    width: 100px;
+    margin-top: 50px;
+}
+
+.barrel2 {
+    margin-left: 160px;
+}
+
+/* akhir dry hydrant */
+
+/* aksesoris */
+.aksesoris {
+    width: 1100px;
+}
+
+.aksesoris h3 {
+    background-color: #961B1E;
+    padding: 10px 10px 10px 10px;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    font-weight: 550;
+}
+
+.aksesoris h5 {
+    background-color: #1a202c;
+    color: #fff;
+    padding: 10px 0px 10px 20px;
+    font-weight: 550;
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 20px;
+
+}
+
+.aksesoris img {
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.aksesoris p {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/* aksesoris */
+
+/* pemeliharaan */
+.pemeliharaan {
+    width: 1100px;
+}
+
+.pemeliharaan img {
+    width: 60%;
+    margin-top: 30px;
+}
+
+.pemeliharaan h3 {
+    margin-top: 130px;
+}
+
+.pemeliharaan p {
+    width: 500px;
+    margin-top: 40px;
+    margin-left: 290px;
+    text-align: left;
+}
+
+/* pemeliharaan */
+
+/* wet hydrant */
+.wet-hydrant h5 {
+    background-color: #1a202c;
+    color: #fff;
+    font-weight: 550;
+    width: 80%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.wet-hydrant img {
+    width: 40%;
+}
+
+.wet-hydrant h6 {
+    background-color: #2d3d4f;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    margin-top: 20px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.wet-hydrant p {
+    background-color: #425b6d;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    margin-top: 20px;
+    height: auto;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.wet-standar h5 {
+    background-color: #1a202c;
+    color: #fff;
+    font-weight: 550;
+    width: 30%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+.wet-standar1 img {
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 90px;
+}
+
+.wet-hydrant-barel h5 {
+    background-color: #1a202c;
+    width: auto;
+    height: auto;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.wet-hydrant-barel {
+    text-align: center;
+}
+
+.wet-hydrant-barel img {
+    width: 40%;
+}
+
+.wet-hydrant-barel-satu img {
+    width: 40%;
+    margin-top: 110px;
+}
+
+.wet-hydrant-barel h6,
+.wet-hydrant-barel-satu h6 {
+    font-weight: 550;
+    margin-top: 30px;
+}
+
+
+/* wet hydrant */
+
+/* fire-suppress */
+.fire-suppres h4 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 550;
+}
+
+.fire-suppres h6 {
+    margin-top: 30px;
+    font-weight: 550;
+}
+
+.fire-suppres p {
+    margin-top: 10px;
+}
+
+.floated img {
+    margin-top: 140px;
+}
+
+.floated p {
+    width: 400px;
+    float: left;
+}
+
+/* fire-suppress */
